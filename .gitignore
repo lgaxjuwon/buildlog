@@ -1,0 +1,27 @@
+# Secret environment settings
+.env
+.env.*
+!.env.example
+
+# Installed dependencies and virtual environments
+.venv/
+node_modules/
+
+# Generated output and Python cache
+dist/
+__pycache__/
+
+# Log files
+*.log
+*.log.*
+
+# Local tools, caches, test artifacts, and database files
+.tools/
+.pytest_cache/
+*.egg-info/
+playwright-report/
+test-results/
+database/*.db
+database/*.db-*
+database/*.sqlite3
+database/*.sqlite3-*
